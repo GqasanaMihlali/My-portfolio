@@ -1,0 +1,103 @@
+/*Navigation effects*/
+.topnavigation {
+    overflow: hidden;
+    background-color:rgb(61, 61, 61);
+  }
+  
+.topnavigation a {
+    float: right;
+    color:lightblue;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnavigation a:hover {
+    background-color:grey;
+    color: black;
+  }
+  
+  /*Body effects*/
+body {
+    background-image: url('6.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+
+ /*Heading 1 effects*/
+h1 {
+    font-family: 'lobster', cursive;
+    font-size: 80px;
+    font-weight: bolder;
+    color:white;
+    padding: 8px;
+    text-align: center;
+    float: inline-end;
+  }
+
+  /*Heading 2 effects*/
+h2{
+    font-family:'lobster', cursive;
+    color:white;
+    font-weight: bolder;
+    font-size: 100px;
+    display:flex;
+    justify-content: center;
+    padding: 15%;
+    background-image: url('6.jpeg');
+  }
+
+  /*paragraphs effects*/
+p {
+    color: white;
+    font-family: 'lobster', cursive;
+    font-weight: lighter;
+    font-size: larger;
+  }
+
+
+  /*Grid-box*/
+.grid-box {
+  display: inline;
+  }
+
+  /* image style*/
+.right{
+    float: right;
+    align-items: center;
+    padding-right: 30px;
+  }
+
+  .right :hover {
+    animation: shake 0.8s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+  
+    80%{transform: translate(-1px,-1px) rotate(1deg);}
+  }
+
+  .container{
+    background-image: url('6.jpeg')
+  }
+  
+  /*Footer effects*/
+.footer {
+  text-align-last: center;
+  font-weight: bolder;
+    color:White;
+
+  
+
+
+
+
+
+  
+  
+
+
+ 
