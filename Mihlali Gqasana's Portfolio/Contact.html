@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-    
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
-
 <!--The pages link-->
 <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -23,12 +22,12 @@
 
 <!-- contact Form-->
 
-<div class="container">
     <h1>Contact Me</h1>
         <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 
-    <div class="responsive"></div>
-
+<div class="alert">Your message has been sent!</div>
+   
+<div class="container">
     <form id="Contact_Form">
         <p>
         <label for="name">Name :</label>
@@ -46,16 +45,24 @@
     <label for="message">Message :</label><br>
     <textarea name="message" id="message" rows="6" required=""></textarea><br><br>
         </p>
-        <p class="full">
-    <button type="submit">Submit</button>
+
+
+    <div class="g-recaptcha" data-sitekey="6Lc_J9gUAAAAAPTur274JvaI65OPAMFEZJ1kIloC" 
+></div>
+    <p>
+        <button type="button" class="submit">Submit</button>
+    
+    </p>
+   
                 
 </form>
   </div>  
   <script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
 <script src="contact.js" ></script>
 </body>
-
-<!--footer-->
+ 
  <div class="footer">
              
     <a href="https://www.facebook.com/amanda.lauren.969300" > <img src="https://image.flaticon.com/icons/png/128/124/124010.png " alt="Facebook" style="width:30px;height:30px;"></a><br>
